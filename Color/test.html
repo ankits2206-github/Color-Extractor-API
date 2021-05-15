@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+
+    <title>Color Extractor</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/cover/">
+    <link rel="shortcut icon" href="https://freepngimg.com/download/tools/23107-9-tools-transparent-image.png" type="image/x-icon">
+
+    <link href="https://getbootstrap.com/docs/4.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <link href="https://getbootstrap.com/docs/4.0/examples/cover/cover.css" rel="stylesheet">
+</head>
+
+<body class="text-center">
+
+    <div class="cover-container d-flex h-100 p-3 mx-auto flex-column">
+        <header class="masthead mb-auto">
+            <div class="inner">
+                <h3 class="masthead-brand">Color</h3>
+                <nav class="nav nav-masthead justify-content-center">
+                    <a class="nav-link active" href="#">Home</a>
+                    <a class="nav-link" href="#">Features</a>
+                    <a class="nav-link" href="#">Contact</a>
+                </nav>
+            </div>
+        </header>
+
+        <main role="main" class="inner cover">
+            <h1 class="cover-heading">Color Extractor</h1>
+            <p class="lead">Get the Dominant color and Border color of any image..</p>
+            <br>
+            <form action="http://127.0.0.1:8000/api_endpoint/" method="get">
+                <div class="form-group">
+                    <label for="exampleInputurl">Image URL</label>
+                    <input type="url" class="form-control" name="src" id="exampleInputurl"
+                        placeholder="Enter Image URL">
+                </div>
+                <br>
+                <button type="submit" class="btn btn-light">Submit</button>
+
+            </form>
+            
+        </main>
+
+        <footer class="mastfoot mt-auto">
+            <div class="inner">
+                <p>Color Extractor by <a href="https://github.com/ankits2206-github">@ankitsharma</a></p>
+            </div>
+        </footer>
+    </div>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
